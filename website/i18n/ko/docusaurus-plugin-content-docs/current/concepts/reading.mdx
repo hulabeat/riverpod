@@ -241,11 +241,9 @@ We could have two providers:
 
 **_그래도 난 위젯이 다시 빌드되는걸 줄이고 싶고 처음부터 `ref.read`를 사용하고 싶어!_**
 
-While the goal is commendable, it is important to note that you can achieve the
-exact same effect (reducing the number of builds) using `ref.watch` instead.
+그 목적은 칭찬할 만하지만 `ref.watch`를 대신 사용하여 똑같은 효과(빌드 수 감소)를 얻을 수 있다는 점에 유의하는 것이 중요합니다.
 
-Providers offer various ways to obtain a value while reducing the number of
-rebuilds, which you could use instead.
+프로바이더들은 리빌드 횟수를 줄이면서 값을 얻을 수 있는 다양한 방법들을 제공합니다.
 
 예를 들어
 
